@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+div
+{
+width:600px;
+height:800px;
+background:red;
+animation:myfirst 5s;
+-webkit-animation:myfirst 5s; /* Safari and Chrome */
+}
+
+@keyframes myfirst
+{
+from {background:red;}
+to {background:yellow;}
+}
+
+@-webkit-keyframes myfirst /* Safari and Chrome */
+{
+from {background:red;}
+to {background:blue;}
+}
+</style>
+</head>
+<body>
+<div>
+
+<marquee behavior="scroll" direction="up"><img src="Untitled.png" width="600" height="300" alt="Choose type of Game" /></marquee>
+<a href="Level1.html"><img src="soft.jpg" border="0" alt ="CLICK TO PLAY" width="290" height="200"></a>
+<a href="level2.html"><img src="hard.jpg" border="0" alt ="CLICK TO PLAY" width="290" height="200"></a>
+<marquee behavior="scroll" direction="up"><img src="Untitled.png" width="600" height="300" alt="Choose type of Game" /></marquee>
+
+</div>
+
+<div></div>
+
+</body>
+</html>
+
